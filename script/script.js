@@ -11,6 +11,7 @@ const options = {
 async function callData() {
 	const response = await fetch(url, options);
 	const result = await response.json();
+  console.log(result.weather[0].main)
 	console.log((result.main.temp-30) / 2);
   let innerHTML = `<h1>${((result.main.temp-30) / 2).toFixed(1)}</h1>`;
   document.querySelector('.degree-section')
