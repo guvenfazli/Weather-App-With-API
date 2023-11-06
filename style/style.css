@@ -12,7 +12,6 @@ body{
 .section-1{
   width: 200.8vh;
   height: 100vh;
-  border: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +19,7 @@ body{
 
 .weather-card{
   width: 80vh;
-  height: 80vh;
+  height: 65vh;
   background-image: linear-gradient(.45turn,#F48968 25px, #F569A1 600px);
   border-radius: 20px;
 }
@@ -35,7 +34,6 @@ body{
   justify-content: center;
   color: white;
   letter-spacing: 10px;
-  color: white;
 }
 
 .search-container{
@@ -81,27 +79,30 @@ body{
   justify-content: center;
   color: white;
   font-size: 35px;
-  border: 1px solid black;
   margin-bottom: 40px;
 }
 
 .weather-image{
-  border: 1px solid black;
   align-items: center;
   width: 100%;
   height: 100px;
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+}
 
+.weather-image img{
+  width: 150px;
+  height: 150px;
 }
 
 .weather-info{
-  border: 1px solid black;
   align-items: center;
   width: 100%;
   height: 100px;
   display: flex;
   justify-content: center;
+  color: white;
+  font-size: 35px;
 
 }

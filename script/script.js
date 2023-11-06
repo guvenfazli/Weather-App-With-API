@@ -16,7 +16,16 @@ async function callData() {
   let innerHTML = `<h1>${((result.main.temp-30) / 2).toFixed(1)}</h1>`;
   document.querySelector('.degree-section')
     .innerHTML = innerHTML
+  
+  let renderPNG = `<img src="images/${result.weather[0].main}.png" alt="">`
+  document.querySelector('.weather-image')
+    .innerHTML = renderPNG
+
+  document.querySelector('.weather-info')
+    .innerHTML = `<h1>${result.weather[0].description}</h1>`
 }
+
+
 
 
 const buttonElement = document.querySelector('.search-button')
