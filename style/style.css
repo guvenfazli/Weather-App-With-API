@@ -94,6 +94,12 @@ body{
 .weather-image img{
   width: 150px;
   height: 150px;
+  transition: 2s;
+}
+
+.weather-image img:hover{
+  width: 250px;
+  height: 250px;
 }
 
 .weather-info{
@@ -106,3 +112,4 @@ body{
   font-size: 35px;
 
 }
+
