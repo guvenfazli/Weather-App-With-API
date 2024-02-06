@@ -46,3 +46,6 @@ const deneme = {"coord":{"lon":-3.7026,"lat":40.4165},"weather":[{"id":803,"main
 
 console.log(deneme.main.temp)
 */
+
+
+
